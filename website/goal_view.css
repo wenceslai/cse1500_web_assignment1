@@ -1,0 +1,73 @@
+.progress-bar {
+    background: linear-gradient(90deg, rgba(0,43,198,1) 0%, rgba(56,242,180,1) 100%);
+    border-radius: 8px;
+    height: 16px;
+}
+
+.goal {
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    width: 800px;
+    margin: 16px;
+    padding: 32px;
+}
+
+.goal h2 {
+    font-size: 32px;
+}
+
+#completion-text {
+    width: 100%;
+    text-align: center;
+    color: var(--gray);
+}
+
+#deadline-container {
+    margin-top: 24px;
+}
+
+.inline-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 8px;
+    /* margin-top: ; be careful developer, margin top doesn't do anything if it's inline since it doesen't know what margins to give to the other inline thingys */
+}
+
+.goal h3 {
+    font-size: 24px;
+}
+
+.subgoal-container {
+    border: 1px solid var(--gray);
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.subgoal-completed-num {
+    margin-left: auto;
+}
+
+.subgoal-container .material-icons.increment-button {
+    font-size: 16px;
+    background-color: #d8d8d8;
+    margin-left: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subgoal-delete {
+    color: var(--gray);
+    cursor: pointer;
+}
+
+.subgoal-delete:hover {
+    color: var(--bad);
+}
+
+.subgoal-checkbox {
+    margin-left: auto;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./meta.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./goal_view.css">
+</head>
+<body>
+    <div id="topbar">
+        <img id="logo" src="Logo 1.svg" alt="logo">
+
+        <div id="username"><p>Username</p><span class="material-icons">expand_more</span></div>
+    </div>
+    <div class="goal">
+        
+        <h2>Pass Web and Database Technology</h2>
+        
+        <p id="completion-text">50% complete</p>
+
+        <div class="progress-bar"></div>
+
+        <div id="deadline-container">
+            <span class="inline-header">I will do this by</span>
+            <span>3rd of January 2023</span>
+            <span class="material-icons">calendar_month</span>
+        </div>
+
+        <p id="goal-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3>I plan to</h3>
+
+        <div class="subgoal-container">
+            <span class="subgoal-name">Study every day even during meals</span>
+            <span class="subgoal-completed-num">50</span>
+            <span class="material-icons increment-button">add</span>
+            <span class="material-icons increment-button">remove</span>
+            <span class="subgoal-goal">/100 hours</span>
+            <span class="subgoal-delete material-icons">delete</span>
+        </div>
+        <div class="subgoal-container">
+            <span class="subgoal-name">Learn Postgresql</span>
+            <input type="checkbox" class="subgoal-checkbox">
+            <span class="subgoal-delete material-icons">delete</span>
+        </div>
+
+        <div id="subgoal-create-container">
+            <input type="text" placeholder="Action">
+            <select>
+                <option>Number</option>
+                <option>Boolean</option>
+            </select>
+        </div>
+      </div>
+
+      
+</body>
+</html>

@@ -1,0 +1,48 @@
+
+#form {
+    border: 1px solid black;
+    width: 300px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+#submit_button {
+    color: white;
+    background-color: blue;
+    width: 100%;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+#signup_button {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#forgot_password {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}

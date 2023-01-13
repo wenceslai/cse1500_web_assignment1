@@ -1,0 +1,89 @@
+.goal {
+    border: 1px solid #bcbcbc;
+    border-radius: 8px;
+    width: 800px;
+    margin: 16px;
+    display: flex;
+    cursor: cursor;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* !!! */
+}
+
+.goal h2 {
+    margin-top: 0px;
+    font-size: 32px;
+}
+
+.progress p {
+    font-size: 16px;
+    color: #bcbcbc;
+    margin-top: 48px;
+}
+
+.progress {
+    padding: 32px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.status {
+    padding: 8px;
+    margin-left: auto;
+    border-left: 1px solid #bcbcbc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* !!! */
+    width: 120px;
+    text-align: center;
+}
+
+
+.progress-number {
+    font-size: 48px;
+    font-weight: 900;
+    color: #002bc6;
+    margin: 0;
+}
+
+.done {
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--good);
+    margin: 0;
+}
+
+.days-left {
+    font-size: 16px;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, rgba(0,43,198,1) 0%, rgba(56,242,180,1) 100%);
+    border-radius: 8px;
+    height: 16px;
+}
+
+
+
+h1 {
+    padding: 53px;
+}
+
+
+
+
+.add-button {
+    height: 182px;
+    align-items: center;
+    text-align: center; /* don't panic, you've put two classes there so css is smart and will merge the two, thus the display: flex is included :) */
+    justify-content: center;
+    cursor: pointer; /* okay this epic */
+}
+
+#plus {
+    font-size: 100px;
+    color: var(--gray);
+}
