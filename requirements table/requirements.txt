@@ -1,12 +1,18 @@
 Requirement Num.    Description                         Contributor Name
 
+Sitemap
 1                   Design the app logic                both
 2                   Represent the logic in sitemap      both
 
+Figma
 3                   Design the login screen in figma    Kaldis
 4                   Design the goal view screen         Kaldis
 5                   Design the dashboard screen         Vaclav
 
+HTML+CSS
 6                   Code and style the index.html       Vaclav
 7                   Code and style the dashboard.html   Vaclav
 8                   Code and style the goal_view.html   Kaldis
+10                  Code and style the signup.html      Kaldis
+
+*the website files are dumped in the root since github pages require to have the index.html in the root
