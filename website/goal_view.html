@@ -16,18 +16,19 @@
 
         <div id="username"><p>Username</p><span class="material-icons">expand_more</span></div>
     </div>
+
+<div id="content">
     <div class="goal">
         
         <h2>Pass Web and Database Technology</h2>
         
         <p id="completion-text">50% complete</p>
 
-        <div class="progress-bar"></div>
+        <div class="progress-bar"><div></div></div>
 
         <div id="deadline-container">
             <span class="inline-header">I will do this by</span>
-            <span>3rd of January 2023</span>
-            <span class="material-icons">calendar_month</span>
+            <input type="date" value="2023-01-03" id="deadline-container-date">
         </div>
 
         <p id="goal-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -47,15 +48,18 @@
             <span class="subgoal-delete material-icons">delete</span>
         </div>
 
-        <div id="subgoal-create-container">
-            <input type="text" placeholder="Action">
+        <form id="subgoal-create-container">
+            <input type="text" placeholder="Action" id="subgoal-create-action">
             <select>
                 <option>Number</option>
                 <option>Boolean</option>
             </select>
-        </div>
+            <input type="number" placeholder="Target" id="subgoal-create-target">
+            <input type="text" placeholder="Unit">
+            <button type="submit" id="subgoal-create-add"><span class="material-icons">add</span></button>
+        </form>
       </div>
 
-      
+</div>  
 </body>
 </html>
