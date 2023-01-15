@@ -1,0 +1,12 @@
+Requirement Num.    Description                         Contributor Name
+
+1                   Design the app logic                both
+2                   Represent the logic in sitemap      both
+
+3                   Design the login screen in figma    Kaldis
+4                   Design the goal view screen         Kaldis
+5                   Design the dashboard screen         Vaclav
+
+6                   Code and style the index.html       Vaclav
+7                   Code and style the dashboard.html   Vaclav
+8                   Code and style the goal_view.html   Kaldis

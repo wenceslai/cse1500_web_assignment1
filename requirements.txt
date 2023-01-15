@@ -1,4 +1,0 @@
-Requirements Number         Description           Contributor Name
-1                           finish project        Both
-2                           win
-
