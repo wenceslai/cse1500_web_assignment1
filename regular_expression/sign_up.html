@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="../sign_up.css">
+    <link rel="stylesheet" href="../meta.css">
+</head>
+<body>
+    <div id="topbar">
+        <img id="logo" src="../Logo 1.svg" alt="logo">
+
+        <div id="username"><p>Username</p><span class="material-icons">expand_more</span></div>
+    </div>
+
+    <div id="content">
+        <div id="form">
+            <h2>Sign up</h2>
+            
+            <form action="post">
+                <input type="text" placeholder="Email" name="email">
+                <p class="error-container"></p>
+                <input type="text" placeholder="Username" pattern="[A-Z]\w{4,11}[\d\W]" name="username">
+                <input type="password" placeholder="Password" name="password">
+                <input type="text" placeholder="Name" name="name">
+                <input type="text" placeholder="Address" name="address">
+                <input type="text" placeholder="Country" name="country">
+                <input type="text" placeholder="ZIP Code" pattern="\d{4}[A-Z]{2}" name="zipcode">
+                <input type="text" placeholder="Gender" name="gender">
+                <input type="text" placeholder="Language" name="language">
+                <textarea id="bio" placeholder="Your bio:" name="bio"></textarea>
+                <button id="submit_button" type="submit">Log in</button>
+            </form>
+
+            <a id="signup_button" href="">Sign up</a>
+            <a id="forgot_password" href="">Forgot my password</a>
+        </div>
+    </div>
+
+    <script src="./sign_up.js"></script>
+</body>
+</html>

@@ -63,3 +63,8 @@ input {
     display: block;
     margin-bottom: 10px;
 }
+
+.error-container {
+    font-size: 8px;
+    font-weight: normal;
+}
